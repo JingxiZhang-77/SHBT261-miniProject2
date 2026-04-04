@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import torch; print\\('PyTorch:', torch.__version__\\); print\\('CUDA:', torch.cuda.is_available\\(\\)\\); import torchvision; print\\('torchvision:', torchvision.__version__\\)\")",
+      "Bash(where python:*)",
+      "Bash(conda info:*)",
+      "Bash(C:/Users/718/anaconda3/python.exe -c \"import torch; print\\('PyTorch:', torch.__version__\\); print\\('CUDA:', torch.cuda.is_available\\(\\)\\); import torchvision; print\\('torchvision:', torchvision.__version__\\); import albumentations; print\\('albumentations OK'\\)\")",
+      "Bash(C:/Users/718/anaconda3/python.exe -m pip install albumentations scipy scikit-learn tqdm)",
+      "Bash(C:/Users/718/anaconda3/python.exe -c \"import albumentations; import scipy; import sklearn; import tqdm; print\\('All OK'\\)\")",
+      "Bash(C:/Users/718/anaconda3/python.exe -c ':*)",
+      "Bash(C:/Users/718/anaconda3/python.exe -c \"import albumentations; print\\(albumentations.__version__\\)\")",
+      "Bash(C:/Users/718/anaconda3/python.exe main.py --models unet18 unet50 deeplabv3plus --epochs 60)",
+      "Bash(C:/Users/718/anaconda3/python.exe -m pip install \"numpy<2\" --upgrade)",
+      "Bash(C:/Users/718/anaconda3/python.exe -c \"import numpy; print\\(numpy.__version__\\); import matplotlib; print\\('matplotlib OK'\\)\")",
+      "Bash(C:/Users/718/anaconda3/python.exe main.py --models unet50 deeplabv3plus --epochs 60)",
+      "Bash(C:/Users/718/anaconda3/python.exe main.py --models deeplabv3plus --epochs 60)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(C:/Users/718/anaconda3/python.exe main.py --models unet18 unet50 --eval-only)",
+      "Bash(C:/Users/718/anaconda3/python.exe main.py --models unet18 unet50 deeplabv3plus --eval-only)",
+      "Bash(C:/Users/718/anaconda3/python.exe ablation.py --ablations all --epochs 30)"
+    ]
+  }
+}

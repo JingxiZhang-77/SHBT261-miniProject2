@@ -1,0 +1,28 @@
+# ── Dataset ───────────────────────────────────────────────────
+VOCtrainval_06-Nov-2007/
+VOCtest_06-Nov-2007/
+PASCAL_VOC/
+
+# ── Model checkpoints ─────────────────────────────────────────
+checkpoints/
+
+# ── SAM checkpoint ────────────────────────────────────────────
+*.pth
+
+# ── Generated results / figures ───────────────────────────────
+results/
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+
+# ── Python cache ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# ── OS / editor ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
