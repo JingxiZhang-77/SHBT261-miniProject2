@@ -2,7 +2,7 @@
 
 **Course:** SHBT 261  
 **Dataset:** Pascal VOC 2007 (Segmentation)  
-**Submission:** April 15, 2026
+https://github.com/JingxiZhang-77/SHBT261-miniProject2
 
 ## 1. Introduction
 
